@@ -1,0 +1,29 @@
+.page-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+  .username,
+  .password {
+    width: 100%;
+    margin: 10px;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  button {
+    height: 40px;
+    border-radius: 10px;
+    width: 50%;
+  }
+}
